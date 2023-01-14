@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('Clone') {
             steps {
-                git 'https://github.com/4ndrevv/docker_jenkin_web_app.git'
+                git 'https://github.com/4ndrevv/gilded-rose-jenkin.git'
                 }
             }
         stage('Test') {
